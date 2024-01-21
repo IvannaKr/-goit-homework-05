@@ -639,6 +639,9 @@ letter-spacing: 0.02em;
 margin-bottom: 16px;
 }
 
+.modal-field {
+  margin-bottom: 8px;
+}
 .modal-input {
   width: 100%;
   display: flex;
@@ -655,13 +658,14 @@ padding-left: 16px;
 }
 
 .modal-label {
- display: inline-block;
+ display: block;
   color: var(--LIGHT-SLATE, #8E8F99);
 font-size: 12px;
 font-weight: 400;
-line-height: 1.16px;
+line-height: 1.17px;
 letter-spacing: 0.04em;
 margin-bottom: 4px;
+
 
 }
 
