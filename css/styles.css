@@ -755,6 +755,7 @@ img {
   stroke-width: 1px;
   stroke: var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.4));
   margin-right: 8px;
+  display: inline-flex;
 }
 
 .check-text-first {
@@ -775,6 +776,10 @@ img {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
+}
+
+.checkbox-icon {
+  background: transparent;
 }
 
 .send-btn {
