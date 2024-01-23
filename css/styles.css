@@ -719,6 +719,10 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   border-color: #4D5AE5; 
 
 }
+
+.modal-field-comment {
+  margin-bottom: 16px;
+}
 .modal-input::placeholder {
 }
 .modal-input:focus::placeholder {
@@ -730,6 +734,9 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .check-input {
 
+}
+.modal-field-checkbox {
+  margin-bottom: 24px;
 }
 
 .check-text {
