@@ -702,12 +702,21 @@ font-weight: 400;
 line-height: 1.17;
 letter-spacing: 0.04em;
 outline: transparent;
-padding-top 8px;
-padding-right: 287px; 
-padding-bottom: 98px;
-padding-left: 16px;
+margin-bottom: 16px;
 resize: none;
 width: 360px;
+height: 120px;
+border: 1px solid rgba(46, 47, 66, 0.4);
+border-radius: 4px; 
+background-color: transparent;
+padding: 8px 16px; 
+transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.modal-text:focus {
+  border-color: #4D5AE5; 
+  
 }
 .modal-input::placeholder {
 }
