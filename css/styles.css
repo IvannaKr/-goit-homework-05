@@ -756,6 +756,9 @@ img {
   stroke: var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.4));
   margin-right: 8px;
   display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
 }
 
 .check-text-first {
@@ -778,7 +781,7 @@ img {
   fill: #f4f4fd;
 }
 
-.checkbox-icon {
+.check-icon {
   background: transparent;
 }
 

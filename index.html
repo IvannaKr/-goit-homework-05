@@ -600,8 +600,11 @@
           </div>
           <div class="modal-field-checkbox">
            
-            <input type="checkbox" name="user-privacy" id="user-privacy" class="check-input" value="true">
-             <label for="user-privacy" class="check-text"><span class="check-text-first"></span>I accept the terms and conditions of the <a href="">Privacy Policy</a></label>
+            <input type="checkbox" name="user-privacy" id="user-privacy" class="check-input visually-hidden" value="true">
+             <label for="user-privacy" class="check-text"><span class="check-text-first">
+              <svg class="check-icon" width="16" height="16">
+                <use href="./images/icons.svg#icon-checkbox"></use>
+             </span>I accept the terms and conditions of the <a href="">Privacy Policy</a></label>
           </div>
           <button class="send-btn" type="submit">Send</button>
         </form>
