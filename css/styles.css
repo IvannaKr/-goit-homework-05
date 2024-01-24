@@ -822,10 +822,13 @@ img {
   margin-right: 8px;
 }
 
+.check-text-spn {
+  display: inline-flex;
+}
 .check-input:checked + .check-text span {
   background-color: #404bbf;
   border: none;
- fill: #ffffff;
+ fill: #F4F4FD;
 }
 
 .check-icon {
