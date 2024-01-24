@@ -746,7 +746,7 @@ img {
 }
 
 .modal-icon {
-  stroke: #2e2f42;
+  fill: #2e2f42;
   position: absolute;
   left: 16px;
   top: 50%;
@@ -755,13 +755,13 @@ img {
 }
 
 .modal-text {
+  display: block;
   color: var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.4));
   font-size: 12px;
   font-weight: 400;
   line-height: 1.17;
   letter-spacing: 0.04em;
   outline: transparent;
-  margin-bottom: 16px;
   resize: none;
   width: 360px;
   height: 120px;
@@ -796,6 +796,8 @@ img {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
+  display: flex;
+  align-items: center;
 }
 
 .check-text a {
@@ -803,7 +805,7 @@ img {
   text-decoration: underline;
 }
 
-.check-text-first {
+.check-text span {
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -823,7 +825,7 @@ img {
 .check-input:checked + .check-text span {
   background-color: #404bbf;
   border: none;
-  fill: #f4f4fd;
+ fill: #ffffff;
 }
 
 .check-icon {
