@@ -562,9 +562,7 @@ img {
 }
 
 .footer-bottom {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+      margin-left: 80px;
 }
 .footer-form-text {
   color: var(--WHITE, #fff);
